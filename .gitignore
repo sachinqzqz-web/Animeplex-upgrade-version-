@@ -1,0 +1,27 @@
+# OSX / editors
+.DS_Store
+.idea/
+.vscode/*
+
+# Node / Expo
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.expo/
+dist/
+web-build/
+coverage/
+
+# Secrets
+.env
+.env.*
+!.env.example
+google-services.json
+*.keystore
+*.jks
+
+# Native build output
+/android
+/ios
+build/
+.gradle/
