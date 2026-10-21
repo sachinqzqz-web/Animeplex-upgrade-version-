@@ -1,0 +1,22 @@
+name: ⭐ Feature Request
+description: Suggest a feature to improve the Vega app
+labels: [enhancement]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe your suggested feature
+      description: Describe the feature you would like to see added or improved.
+      placeholder: |
+        Example:
+          "It should work like this..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: Read this carefully; duplicate issues may be closed.
+      options:
+        - label: I have searched existing issues and this is not a duplicate or related to another open issue.
+          required: true
